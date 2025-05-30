@@ -1,5 +1,5 @@
-// eslint.config.js
-export default [
+
+module.exports = [
   {
     files: ["**/*.js"],
     languageOptions: {
@@ -7,7 +7,6 @@ export default [
       sourceType: "module",
     },
     rules: {
-      // İstersen burada kurallar ekleyebilirsin
       "no-unused-vars": "warn",
       "no-console": "off",
     },
